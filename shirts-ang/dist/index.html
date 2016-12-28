@@ -1,0 +1,41 @@
+<!doctype html>
+<html ng-app="shoeStoreApp">
+
+<head>
+    <meta charset="utf-8">
+    <title>shirt Store</title>
+    <meta content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport">
+<link href="/css/main.css?1e884812559cec901577" rel="stylesheet"></head>
+<header>
+    <div class="header">
+        <div class="shirt">
+            T-Shorts
+        </div>
+        <div class="login">
+            <span>登录</span>
+            <span>注册</span>
+        </div>
+    </div>
+    <nav>
+        <ul>
+            <li>主页</li>
+            <li>关于</li>
+            <li>分类
+                <div class='category'>
+                    <div>男士</div>
+                    <div>女士</div>
+                    <div>儿童</div>
+                </div>
+            </li>
+        </ul>
+        <div class="search"><input type="text" placeholder="搜索"></div>
+    </nav>
+</header>
+
+<body>
+    <div ng-view></div>
+    <script type="text/javascript" src="/js/manifest.entry.js"></script>
+    <script type="text/javascript" src="/js/vendor.entry.js"></script>
+<script type="text/javascript" src="/js/app.entry.js?1e884812559cec901577"></script></body>
+
+</html>
